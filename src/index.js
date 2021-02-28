@@ -14,5 +14,5 @@ module.exports = function towelSort (matrix) {
         } else mass = mass.concat(matrix[i].reverse());
       }
     return mass;
-  }
+  } else return [];
 }
